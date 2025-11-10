@@ -41,3 +41,13 @@ print("Optimal θ (radians):", theta_opt)
 print("Optimal M:", M_opt)
 print("Optimal X:", X_opt)
 print("Final L1 score:", loss([theta_opt, M_opt, X_opt]))
+
+
+
+output:
+\left(
+  t\cos(0.826) - e^{0.0742|t|}\sin(0.3 t)\sin(0.826) + 11.5793,
+  42 + t\sin(0.826) + e^{0.0742|t|}\sin(0.3 t)\cos(0.826)
+\right)
+Final L1 score: 1028196.8409790021
+
